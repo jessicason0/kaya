@@ -1,0 +1,34 @@
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://sp-kayagarden.netlify.app/static/media/home_bg.45610f9d2ad985d457bc.jpg);
+  background-position: bottom;
+  background-size: cover;
+  filter: saturate(150%);
+  width: 100%;
+  height: 38em;
+}
+
+.home__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  gap: 1em;
+  padding: 1em;
+}
+
+.home__heading p {
+  color: white;
+  font-size: 3.5em;
+}
+
+.home__heading p:nth-last-child(1) {
+  font-size: 5.2em;
+}
+
+.home__heading span {
+  background-color: var(--primary-clr);
+  padding: 0.1em;
+  border-radius: 8px;
+}

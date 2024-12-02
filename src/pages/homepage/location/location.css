@@ -1,0 +1,151 @@
+.location {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 4em 0;
+  gap: 2em 1em;
+  height: 100%;
+}
+
+.location__title {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.location__title h2 {
+  text-align: center;
+  color: var(--primary-clr);
+  font-size: 2em;
+}
+
+.location__title div {
+  width: 2em;
+  height: 0.25em;
+  margin: auto;
+  background-color: var(--primary-clr);
+  border-radius: 1em;
+}
+
+.location__content {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.location__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 1.5em;
+  /* padding-right: 2em; */
+}
+
+.location__info h2 {
+  color: var(--primary-clr);
+  padding-bottom: 0.5em;
+  font-size: 1.6em;
+  margin-left: auto;
+}
+
+.location__info-address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  margin-left: auto;
+}
+
+.location__info-address button {
+  border: none;
+  background-color: var(--primary-clr);
+  color: white;
+  padding: 0.8em 0;
+  border-radius: 0.5em;
+  width: 7em;
+  margin-left: auto;
+  font-size: 1.1em;
+}
+
+.location__info-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-left: auto;
+}
+
+.location__info-detail p {
+  font-size: 1.3em;
+}
+
+.location__info-address p {
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.location__sub-title {
+  display: flex;
+  gap: 0.3em;
+  align-items: center;
+}
+
+.location__info .location__sub-title h3 {
+  margin-left: auto;
+}
+
+.location__sub-title h3 {
+  color: var(--primary-clr);
+  font-size: 1.6em;
+}
+
+.location__sub-title svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: var(--primary-clr);
+  stroke: var(--primary-clr);
+}
+
+.location__divider-line {
+  width: 1em;
+  height: 100%;
+  flex-shrink: 0;
+  background-color: var(--primary-clr);
+}
+
+.location__business {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.5em;
+  /* border-left: 0.3em solid var(--primary-clr);
+  padding-left: 2em; */
+}
+
+.location__business h2 {
+  color: var(--primary-clr);
+  padding-bottom: 0.5em;
+  font-size: 1.6em;
+}
+
+.location__business-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.location__business-content h3 {
+  color: var(--primary-clr);
+}
+
+.location__business-hours {
+  display: flex;
+}
+
+.location__business-hours p {
+  font-size: 1.3em;
+}
+
+.location__business-hours p:nth-child(1) {
+  min-width: 3.5em;
+}

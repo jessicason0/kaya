@@ -1,0 +1,11 @@
+footer {
+  background-color: var(--primary-clr);
+}
+
+.footer__copyright {
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 2em;
+  font-weight: bolder;
+}

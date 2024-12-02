@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-clr: #2c4132;
+  --secondary-clr: #4d9e51;
+  --bg-clr: #eeeeee;
+}
+
+body {
+  background-color: var(--bg-clr);
+}
+
+.wrapper {
+  max-width: 60em;
+  width: 100%;
+  margin: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

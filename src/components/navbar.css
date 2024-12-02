@@ -1,0 +1,59 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 1em;
+}
+
+.navbar__logo {
+  display: flex;
+  gap: 0.2em;
+}
+
+.navbar__logo-img {
+  position: relative;
+  width: 3em;
+  height: 3em;
+}
+
+.navbar__logo-img img {
+}
+
+.navbar__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 0.8;
+}
+
+.navbar__name div {
+  font-weight: bold;
+  color: white;
+  font-size: 2.1em;
+}
+
+.navbar__name div:nth-last-child(1) {
+  font-size: 1.3em;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.navbar__links li {
+  list-style: none;
+}
+
+.navbar__links a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,89 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 6em 1em;
+}
+
+.menu__title {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.menu__title h2 {
+  text-align: center;
+  color: var(--primary-clr);
+  font-size: 2em;
+}
+
+.menu__title div {
+  width: 2em;
+  height: 0.25em;
+  margin: auto;
+  background-color: var(--primary-clr);
+  border-radius: 1em;
+}
+
+.menu__category {
+  margin: auto;
+  display: flex;
+}
+
+.menu__category-btn {
+  cursor: pointer;
+  padding: 1.2em 1em;
+  background-color: #cfcfcf;
+  font-size: 1em;
+}
+
+.menu__category-btn--active {
+  background-color: var(--primary-clr);
+  color: white;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.menu__item {
+}
+
+.menu__item-details {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  position: relative;
+}
+
+.menu__item-details h3 {
+  font-size: 1.3em;
+  font-weight: lighter;
+  background-color: var(--bg-clr);
+  padding-right: 1em;
+}
+
+.menu__item-details span {
+  color: #aa4a4a;
+}
+
+.dash-line {
+  border-bottom: 2px dotted #cfcfcf;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.menu__item-price {
+  font-size: 1.1em;
+  margin-left: auto;
+  background-color: var(--bg-clr);
+  padding-left: 1em;
+}
+
+.menu__item-desc {
+  font-style: italic;
+  font-size: 1.1em;
+}
